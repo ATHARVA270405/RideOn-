@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">Logo</string>
+    <!-- Add this array for vehicle types -->
+    <string-array name="vehicle_types">
+
+        <item>Car</item>
+        <item>AutoRikshaw</item>
+        <item>Motorcycle</item>
+        <item>Bus</item>
+    </string-array>
+    <string name="app_name2">Travel UI</string>
+    <string-array name="passenger_options">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+    </string-array>
+
+
+</resources>
+

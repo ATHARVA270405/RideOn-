@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFEB3B"
+    android:padding="16dp">
+
+    <!-- Back Arrow -->
+    <ImageView
+        android:id="@+id/Back_arrow1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="start"
+        android:src="@drawable/arrow"
+        android:contentDescription="Back Arrow"
+        />
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/imagelogo"
+        android:contentDescription="Logo" />
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Welcome back"
+        android:textSize="24sp"
+        android:textColor="#004D40"
+        android:textStyle="bold" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="Login to your account"
+        android:textSize="16sp"
+        android:textColor="#004D40" />
+
+    <!-- Email/Username Field -->
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/email_username1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:hint="Email / Username"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        android:padding="12dp"
+        android:textColor="#004D40" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:background="@drawable/border"
+        android:padding="12dp"
+        android:textColor="#004D40"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword" />
+
+    <!-- Remember Me and Forgot Password -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <!-- Remember Me -->
+        <CheckBox
+            android:id="@+id/remember_me1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember me"
+            android:textColor="#004D40" />
+
+        <!-- Spacer -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <!-- Forgot Password -->
+        <TextView
+            android:id="@+id/forgot_password1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot password?"
+            android:textColor="#004D40"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/login_button1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#004D40"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+
+        android:textStyle="bold" />
+
+    <!-- Sign-Up Text -->
+    <TextView
+        android:id="@+id/NewRegistration1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Don't have an account? New Registration"
+        android:textColor="#004D40"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEA00"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <!-- Driver Button -->
+
+    <!-- User Button -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="317dp"
+        android:layout_height="241dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="502dp"
+        android:src="@drawable/travellogo" />
+
+    <ImageView
+        android:id="@+id/driverlogo"
+        android:layout_width="89dp"
+        android:layout_height="98dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="300dp"
+        android:contentDescription="Back Arrow"
+        android:src="@drawable/driverlogo" />
+
+    <ImageView
+        android:id="@+id/userlogo"
+        android:layout_width="96dp"
+        android:layout_height="99dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="420dp"
+        android:contentDescription="Back Arrow"
+        android:src="@drawable/user_logo" />
+
+    <Button
+        android:id="@+id/driverbutton"
+        android:layout_width="195dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="310dp"
+        android:backgroundTint="#004D40"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="Driver"
+        android:textColor="#F6F2F2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/userbutton"
+        android:layout_width="195dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="430dp"
+        android:backgroundTint="#004D40"
+        android:text="User"
+        android:textColor="#F8F4F4"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
